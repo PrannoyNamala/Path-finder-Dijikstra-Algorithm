@@ -108,8 +108,8 @@ if __name__ == '__main__':
     while True:
 
         if np.array_equal(g_n, visited_nodes[iterator].point):
-            break
             print("SHORTEST PATH TO GOAL FOUND")
+            break
 
         possible_states = action_set(visited_nodes[iterator].point)
 
